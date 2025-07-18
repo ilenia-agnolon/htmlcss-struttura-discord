@@ -27,18 +27,28 @@
         height: 25px;
         background-color: rgb(255, 212, 105);
         border: 2px solid black;
-         display: flex;
-        justify-content: center;
+        padding: 0 20px;
+        display: flex;
         align-items: center;
 }
 
 #link {
     flex-grow: 2;
+    justify-content: center;
+    
 }
 
 #logo,
 #login {
     flex-grow: 1;
+}
+
+#logo {
+    justify-content: flex-start;
+}
+
+#login {
+    justify-content: flex-end;
 }
 
 /* main */
