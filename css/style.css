@@ -22,6 +22,19 @@
 /* main */
 
     /* jumbotron */
+    .jumbotron-container {
+        background-color: rgb(37, 37, 125);
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #box-per-inserire-contenuto {
+        width: 200px;
+        height: 100px;
+        background-color: rgb(208, 158, 255);
+    }
 
     /* sezione immagini con testo a lato */
 
