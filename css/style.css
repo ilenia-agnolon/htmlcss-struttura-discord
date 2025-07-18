@@ -6,7 +6,18 @@
 }
 
 /* header */
+.navbar {
+    background-color: cornflowerblue;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
 
+/* .navbar div {
+    background-color: burlywood;
+    display: flex;
+
+} */ 
 
 /* main */
 
