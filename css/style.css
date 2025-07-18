@@ -37,6 +37,35 @@
     }
 
     /* sezione immagini con testo a lato */
+   .container-img-e-txt-bianco {
+        background-color: rgb(255, 255, 255);
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+   }
+
+   .container-img-e-txt-grigio {
+        background-color: rgb(184, 184, 184);
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+   }
+
+   .immagini {
+        width: 200px;
+        height: 100px;
+        background-color: rgb(158, 190, 255);
+   }
+
+    .testo-img {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(228, 158, 255);
+   }
 
     /* ultima sezione principale prima del footer */
      .ultima-sezione-container {
